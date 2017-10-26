@@ -2,7 +2,7 @@ try:
 	from PyQt4 import QtCore, QtGui
 except:
 	from PySide import QtCore, QtGui
-#import winreg,sys
+
 class DigitalClock(QtGui.QLCDNumber):
     def __init__(self):
         super(DigitalClock, self).__init__()
